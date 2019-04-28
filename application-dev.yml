@@ -87,6 +87,11 @@ management:
     web:
       server:
         auto-time-requests: false
+        
+ignore:
+  urls:
+    - /**/*.css
+    - /auth/**
 
 
  
